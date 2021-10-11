@@ -1266,9 +1266,9 @@ iframe {
         padding: 24px 0;
     }
 
-    .embed-responsive-item {
-        height: 210px;
-        width: 373px;
+    iframe {
+        height: 157.5px;
+        width: 280px;
     }
 }
 
