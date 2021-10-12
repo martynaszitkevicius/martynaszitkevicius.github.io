@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'titillium_webblack';
-    src: url('https://github.com/martynaszitkevicius/martynaszitkevicius.github.io/blob/main/Fonts/titilliumweb-black-webfont.woff2') format('woff2'),
-         url('https://github.com/martynaszitkevicius/martynaszitkevicius.github.io/blob/main/Fonts/titilliumweb-black-webfont.woff') format('woff');
+    src: url('/Fonts/titilliumweb-black-webfont.woff2') format('woff2'),
+         url('/Fonts/titilliumweb-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

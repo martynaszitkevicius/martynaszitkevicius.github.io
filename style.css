@@ -1,6 +1,10 @@
 @font-face {
-    font-family: 'Titillium Web', serif;
-    src: url('https://github.com/martynaszitkevicius/martynaszitkevicius.github.io/raw/main/Fonts/titilliumweb-black-webfont.woff');
+    font-family: 'titillium_webblack';
+    src: url('/Fonts/titilliumweb-black-webfont.woff2') format('woff2'),
+    url('/Fonts/titilliumweb-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
