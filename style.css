@@ -6,6 +6,7 @@
 body {
     font-family: 'Titillium Web', serif;
     padding-top: 60px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -34,7 +35,7 @@ body {
 .animated-icon1 {
     width: 30px;
     height: 20px;
-    position: relative;
+    /*position: relative;*/
     margin: 0px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -132,9 +133,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
-
 
 .banner-h1 {
     color: #44d62d;
@@ -148,10 +147,6 @@ body {
 
 /*about me*/
 
-
-/*.about-me-container{*/
-/*    width: 100vw;*/
-/*}*/
 
 .heading-container {
     padding: 48px 0;
@@ -1334,7 +1329,7 @@ iframe {
     }
 
     .lets-meet-img img {
-        height: 370px;
+        height: 360px;
     }
 
     .personality-left-side {
@@ -1346,7 +1341,7 @@ iframe {
     }
 
     .hobbies-img img {
-        height: 200px;
+        height: 190px;
     }
 
     .philosophy-left-side {
@@ -1354,7 +1349,7 @@ iframe {
     }
 
     .mind-img img {
-        height: 270px;
+        height: 260px;
     }
 
     .running-right-side {
@@ -1362,6 +1357,6 @@ iframe {
     }
 
     .running-img img {
-        width: 290px;
+        width: 280px;
     }
 }
