@@ -1320,6 +1320,10 @@ iframe {
         font-size: 25px;
     }
 
+    .about-me-container h1{
+        display: none;
+    }
+
     .about-me-container p{
         font-size: 16px;
     }
