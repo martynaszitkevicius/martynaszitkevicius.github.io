@@ -1310,7 +1310,7 @@ iframe {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 325px) {
 
     .banner-h1 {
         font-size: 28px;
