@@ -15,7 +15,6 @@ body {
 /*navbar*/
 
 
-
 .navbar {
     background-color: #020609;
     border-bottom: 5px solid #44d62d;
@@ -23,7 +22,7 @@ body {
     overflow: no-display;
 }
 
-.navbar button{
+.navbar button {
     margin-left: auto;
     border: none;
 }
@@ -710,24 +709,24 @@ iframe {
 
 /*contacts*/
 
-.contact-info-container{
+.contact-info-container {
     background-color: #050505;
 }
 
-.icons{
+.icons {
     margin-top: 40px;
     width: 300px;
 }
 
-.icons img{
+.icons img {
     width: 50px;
 }
 
-.contact-info{
+.contact-info {
     margin: 30px 0;
 }
 
-.contact-info p{
+.contact-info p {
     color: #44d62d;
     margin: 0;
     padding: 20px 0;
@@ -898,7 +897,7 @@ iframe {
         padding: 48px 0;
     }
 
-    .icons img{
+    .icons img {
         width: 30px;
         height: 30px;
     }
@@ -1065,6 +1064,10 @@ iframe {
 }
 
 @media (max-width: 430px) {
+
+    body{
+        padding-top: 49px;
+    }
 
     .nav-item a:hover {
         color: #44d62d;
@@ -1309,5 +1312,56 @@ iframe {
 
     .running-img img {
         width: 370px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .banner-h1 {
+        font-size: 28px;
+    }
+
+    .banner-h2 {
+        font-size: 25px;
+    }
+
+    .about-me-container p{
+        font-size: 16px;
+    }
+
+    .lets-meet-right-side {
+        padding: 0 10px;
+    }
+
+    .lets-meet-img img {
+        height: 380px;
+    }
+
+    .personality-left-side {
+        padding: 0 10px;
+    }
+
+    .hobbies-right-side {
+        padding: 0 10px;
+    }
+
+    .hobbies-img img {
+        height: 210px;
+    }
+
+    .philosophy-left-side {
+        padding: 0 10px;
+    }
+
+    .mind-img img {
+        height: 280px;
+    }
+
+    .running-right-side {
+        padding: 0 10px;
+    }
+
+    .running-img img {
+        width: 300px;
     }
 }
