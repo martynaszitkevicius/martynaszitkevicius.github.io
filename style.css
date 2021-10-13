@@ -6,7 +6,6 @@
 body {
     font-family: 'Titillium Web', sans-serif;
     padding-top: 60px;
-    overflow-x: hidden;
 }
 
 .container {
@@ -20,7 +19,6 @@ body {
     background-color: #020609;
     border-bottom: 5px solid #44d62d;
     max-width: 100%;
-    overflow: no-display;
 }
 
 .navbar button {

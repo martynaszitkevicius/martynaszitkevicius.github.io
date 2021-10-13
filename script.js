@@ -6,22 +6,19 @@
 
 $('.navbar-collapse a').click(function () {
     $('.navbar-collapse').collapse('hide');
+    $('.animated-icon1').toggleClass('open');
 });
 
 $(document).click(function () {
     $('.navbar-collapse').collapse('hide');
 });
 
+$('.first-button').on('click', function () {
+    $('.animated-icon1').toggleClass('open');
+});
+
 
 $(document).ready(function () {
-
-    // burger animation
-
-    $('.first-button').on('click', function () {
-        $('.animated-icon1').toggleClass('open');
-    });
-
-    // scrolling
 
     // This will fire when document is ready:
     $(window).resize(function () {
@@ -30,14 +27,14 @@ $(document).ready(function () {
             // if larger or equal
             $(document).on('click', 'a', function () {
                 $('html, body').animate({
-                    scrollTop: $($.attr(this, 'href')).offset().top - 77,
+                    scrollTop: $($.attr(this, 'href')).offset().top - 75,
                 }, 500);
             });
         } else {
             // if smaller
             $(document).on('click', 'a', function () {
                 $('html, body').animate({
-                    scrollTop: $($.attr(this, 'href')).offset().top - 51,
+                    scrollTop: $($.attr(this, 'href')).offset().top - 48,
                 }, 500);
             });
         }
