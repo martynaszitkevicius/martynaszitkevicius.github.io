@@ -3,26 +3,26 @@
 
 // closing navbar
 
-$(document).click(function () {
+$(document).on('click',() => {
     $('.navbar-collapse').collapse('hide');
 });
 
 
-$('.navbar-collapse a').click(function () {
+$('.navbar-collapse a').on('click', () => {
     $('.navbar-collapse').collapse('hide');
     $('.animated-icon1').toggleClass('open');
 });
 
 
-$('.first-button').on('click', function () {
+$('.first-button').on('click', () => {
     $('.animated-icon1').toggleClass('open');
 });
 
 
-$(document).ready(function () {
+$(document).ready(() => {
 
     // This will fire when document is ready:
-    $(window).resize(function () {
+    $(window).resize(() => {
         // This will fire each time the window is resized:
         if ($(window).width() > 575) {
             // if larger or equal
