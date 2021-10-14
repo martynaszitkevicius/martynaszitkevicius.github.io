@@ -3,15 +3,16 @@
 
 // closing navbar
 
+$(document).click(function () {
+    $('.navbar-collapse').collapse('hide');
+});
+
 
 $('.navbar-collapse a').click(function () {
     $('.navbar-collapse').collapse('hide');
     $('.animated-icon1').toggleClass('open');
 });
 
-$(document).click(function () {
-    $('.navbar-collapse').collapse('hide');
-});
 
 $('.first-button').on('click', function () {
     $('.animated-icon1').toggleClass('open');
