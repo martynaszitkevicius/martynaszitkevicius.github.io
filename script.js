@@ -3,10 +3,6 @@
 
 // closing navbar
 
-$(document).on('click',() => {
-    $('.navbar-collapse').collapse('hide');
-});
-
 
 $('.navbar-collapse a').on('click', () => {
     $('.navbar-collapse').collapse('hide');

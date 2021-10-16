@@ -26,14 +26,9 @@ body {
     border: none;
 }
 
-/*.custom-toggler .navbar-toggler-icon {*/
-/*    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=\'0 0 32 32\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgba(68,214,45, 0.5)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 8h24M4 16h24M4 24h24\'/%3E%3C/svg%3E');*/
-/*}*/
-
 .animated-icon1 {
     width: 30px;
     height: 20px;
-    /*position: relative;*/
     margin: 0px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
@@ -103,6 +98,10 @@ body {
 
 .navbar-nav {
     width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 48px 16px 48px;
+    margin: 0 48px;
 }
 
 .nav-item a {
@@ -1062,6 +1061,14 @@ iframe {
 
     body{
         padding-top: 49px;
+    }
+
+    .navbar-nav{
+        height: 100vh;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0;
+        padding: 0;
     }
 
     .nav-item a:hover {
